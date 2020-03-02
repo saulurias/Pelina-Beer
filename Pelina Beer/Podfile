@@ -7,6 +7,7 @@ target 'Pelina Beer' do
 
   # Pods for Pelina Beer
     pod 'SwiftLint'
+    pod 'Kingfisher'
     pod 'Alamofire', '~> 4.9.1'
 
   target 'Pelina BeerTests' do
