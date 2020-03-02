@@ -49,8 +49,7 @@ enum MovieRouter: URLRequestConvertible {
             case .feed:
                 return [
                     "api_key": SecretKey.apiKey,
-                    "language": "en-US",
-                    "primary_release_year": Calendar.current.component(.year, from: Date())
+                    "language": "en-US"
                 ]
                 
             case .filtered(let query):

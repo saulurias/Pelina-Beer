@@ -28,6 +28,8 @@
 		58252C11240D749500E132F5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C10240D749500E132F5 /* Box.swift */; };
 		58252C15240D753700E132F5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C14240D753700E132F5 /* MoviesViewController.swift */; };
 		58252C17240D755E00E132F5 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C16240D755E00E132F5 /* MovieCollectionViewCell.swift */; };
+		58252C1A240D94B800E132F5 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C19240D94B800E132F5 /* MovieDetailView.swift */; };
+		58252C1C240D94D400E132F5 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C1B240D94D400E132F5 /* MovieDetailViewController.swift */; };
 		582DF935240D5AAC002D7412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF934240D5AAC002D7412 /* AppDelegate.swift */; };
 		582DF937240D5AAC002D7412 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF936240D5AAC002D7412 /* SceneDelegate.swift */; };
 		582DF93E240D5AAD002D7412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582DF93D240D5AAD002D7412 /* Assets.xcassets */; };
@@ -81,6 +83,8 @@
 		58252C10240D749500E132F5 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		58252C14240D753700E132F5 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		58252C16240D755E00E132F5 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		58252C19240D94B800E132F5 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		58252C1B240D94D400E132F5 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		582DF931240D5AAC002D7412 /* Pelina Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelina Beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		582DF934240D5AAC002D7412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		582DF936240D5AAC002D7412 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 			children = (
 				58252C0E240D747300E132F5 /* MovieViewModel.swift */,
 				58252C13240D750500E132F5 /* Movies List */,
+				58252C18240D949D00E132F5 /* Movie Detail */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -257,6 +262,15 @@
 				58252C16240D755E00E132F5 /* MovieCollectionViewCell.swift */,
 			);
 			path = "Movies List";
+			sourceTree = "<group>";
+		};
+		58252C18240D949D00E132F5 /* Movie Detail */ = {
+			isa = PBXGroup;
+			children = (
+				58252C19240D94B800E132F5 /* MovieDetailView.swift */,
+				58252C1B240D94D400E132F5 /* MovieDetailViewController.swift */,
+			);
+			path = "Movie Detail";
 			sourceTree = "<group>";
 		};
 		582DF928240D5AAC002D7412 = {
@@ -591,6 +605,7 @@
 				58252C0F240D747300E132F5 /* MovieViewModel.swift in Sources */,
 				58252C11240D749500E132F5 /* Box.swift in Sources */,
 				58252BE0240D611600E132F5 /* SecretKey.swift in Sources */,
+				58252C1A240D94B800E132F5 /* MovieDetailView.swift in Sources */,
 				58252BF3240D680D00E132F5 /* MovieServiceCallerProtocol.swift in Sources */,
 				58252BE6240D62FA00E132F5 /* ServiceRequester.swift in Sources */,
 				58252BF1240D674100E132F5 /* Movie.swift in Sources */,
@@ -600,6 +615,7 @@
 				58252BEF240D670500E132F5 /* MovieListState.swift in Sources */,
 				58252C0A240D723F00E132F5 /* Alertable.swift in Sources */,
 				58252C17240D755E00E132F5 /* MovieCollectionViewCell.swift in Sources */,
+				58252C1C240D94D400E132F5 /* MovieDetailViewController.swift in Sources */,
 				58252BF9240D687E00E132F5 /* MovieServiceCaller.swift in Sources */,
 				58252C09240D723F00E132F5 /* UIView+Extension.swift in Sources */,
 				58252BED240D637E00E132F5 /* MovieRouter.swift in Sources */,

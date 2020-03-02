@@ -146,7 +146,8 @@ extension MoviesViewController: UICollectionViewDelegate, UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let movie = viewModel.getMovie(at: indexPath.row) else { return }
-        print("Will Display Movie Detail")
+        let detailViewController = MovieDetailViewController(movie: movie, viewModel: viewModel)
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
 
