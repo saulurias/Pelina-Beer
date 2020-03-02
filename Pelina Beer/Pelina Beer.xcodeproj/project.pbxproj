@@ -18,6 +18,12 @@
 		58252BF5240D683200E132F5 /* MovieListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252BF4240D683100E132F5 /* MovieListResponse.swift */; };
 		58252BF7240D685700E132F5 /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252BF6240D685700E132F5 /* StatusResponse.swift */; };
 		58252BF9240D687E00E132F5 /* MovieServiceCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252BF8240D687E00E132F5 /* MovieServiceCaller.swift */; };
+		58252C07240D723F00E132F5 /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C01240D723E00E132F5 /* NiblessView.swift */; };
+		58252C08240D723F00E132F5 /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C02240D723E00E132F5 /* NiblessViewController.swift */; };
+		58252C09240D723F00E132F5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C03240D723F00E132F5 /* UIView+Extension.swift */; };
+		58252C0A240D723F00E132F5 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C04240D723F00E132F5 /* Alertable.swift */; };
+		58252C0B240D723F00E132F5 /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C05240D723F00E132F5 /* Collection+SafeIndex.swift */; };
+		58252C0C240D723F00E132F5 /* NiblessCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252C06240D723F00E132F5 /* NiblessCollectionViewController.swift */; };
 		582DF935240D5AAC002D7412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF934240D5AAC002D7412 /* AppDelegate.swift */; };
 		582DF937240D5AAC002D7412 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF936240D5AAC002D7412 /* SceneDelegate.swift */; };
 		582DF939240D5AAC002D7412 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF938240D5AAC002D7412 /* ViewController.swift */; };
@@ -63,6 +69,12 @@
 		58252BF4240D683100E132F5 /* MovieListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListResponse.swift; sourceTree = "<group>"; };
 		58252BF6240D685700E132F5 /* StatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
 		58252BF8240D687E00E132F5 /* MovieServiceCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceCaller.swift; sourceTree = "<group>"; };
+		58252C01240D723E00E132F5 /* NiblessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiblessView.swift; sourceTree = "<group>"; };
+		58252C02240D723E00E132F5 /* NiblessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
+		58252C03240D723F00E132F5 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		58252C04240D723F00E132F5 /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		58252C05240D723F00E132F5 /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
+		58252C06240D723F00E132F5 /* NiblessCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiblessCollectionViewController.swift; sourceTree = "<group>"; };
 		582DF931240D5AAC002D7412 /* Pelina Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelina Beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		582DF934240D5AAC002D7412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		582DF936240D5AAC002D7412 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +215,19 @@
 			path = Status;
 			sourceTree = "<group>";
 		};
+		58252C00240D722C00E132F5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				58252C04240D723F00E132F5 /* Alertable.swift */,
+				58252C05240D723F00E132F5 /* Collection+SafeIndex.swift */,
+				58252C06240D723F00E132F5 /* NiblessCollectionViewController.swift */,
+				58252C01240D723E00E132F5 /* NiblessView.swift */,
+				58252C02240D723E00E132F5 /* NiblessViewController.swift */,
+				58252C03240D723F00E132F5 /* UIView+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		582DF928240D5AAC002D7412 = {
 			isa = PBXGroup;
 			children = (
@@ -228,9 +253,10 @@
 		582DF933240D5AAC002D7412 /* Pelina Beer */ = {
 			isa = PBXGroup;
 			children = (
-				58252BE7240D631500E132F5 /* Models */,
 				58252BDE240D604600E132F5 /* Secrets */,
 				58252BDD240D603D00E132F5 /* Networking */,
+				58252BE7240D631500E132F5 /* Models */,
+				58252C00240D722C00E132F5 /* Utils */,
 				582DF934240D5AAC002D7412 /* AppDelegate.swift */,
 				582DF936240D5AAC002D7412 /* SceneDelegate.swift */,
 				582DF938240D5AAC002D7412 /* ViewController.swift */,
@@ -530,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58252C0C240D723F00E132F5 /* NiblessCollectionViewController.swift in Sources */,
 				582DF939240D5AAC002D7412 /* ViewController.swift in Sources */,
 				58252BF5240D683200E132F5 /* MovieListResponse.swift in Sources */,
 				58252BEA240D633400E132F5 /* NetworkError.swift in Sources */,
@@ -537,13 +564,18 @@
 				58252BF3240D680D00E132F5 /* MovieServiceCallerProtocol.swift in Sources */,
 				58252BE6240D62FA00E132F5 /* ServiceRequester.swift in Sources */,
 				58252BF1240D674100E132F5 /* Movie.swift in Sources */,
+				58252C08240D723F00E132F5 /* NiblessViewController.swift in Sources */,
+				58252C07240D723F00E132F5 /* NiblessView.swift in Sources */,
 				58252BE3240D62D300E132F5 /* APIManager.swift in Sources */,
 				58252BEF240D670500E132F5 /* MovieListState.swift in Sources */,
+				58252C0A240D723F00E132F5 /* Alertable.swift in Sources */,
 				58252BF9240D687E00E132F5 /* MovieServiceCaller.swift in Sources */,
+				58252C09240D723F00E132F5 /* UIView+Extension.swift in Sources */,
 				58252BED240D637E00E132F5 /* MovieRouter.swift in Sources */,
 				58252BF7240D685700E132F5 /* StatusResponse.swift in Sources */,
 				582DF935240D5AAC002D7412 /* AppDelegate.swift in Sources */,
 				582DF937240D5AAC002D7412 /* SceneDelegate.swift in Sources */,
+				58252C0B240D723F00E132F5 /* Collection+SafeIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
