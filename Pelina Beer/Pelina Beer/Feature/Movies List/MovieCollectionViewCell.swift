@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 protocol MovieCellDelegate: AnyObject {
     func movieCollectionViewCell(_ collectionViewCell: MovieCollectionViewCell, tappedFavorite button: UIButton)
@@ -119,15 +120,31 @@ final class MovieCollectionViewCell: UICollectionViewCell {
     @objc private func favoriteButtonPressed() {
         delegate?.movieCollectionViewCell(self, tappedFavorite: favoriteButton)
     }
-      
+    
+    /// Configure outlet values
+    /// - Parameters:
+    ///   - movie: The movie values to be displayed
+    ///   - isFavorite: The movie check to show favorite button icon
     func configure(with movie: Movie, isFavorite: Bool = false) {
         titleLabel.text = movie.title
         ratingLabel.text = "Rate: \(movie.voteAverage)"
-        guard let url = URL(string: "\(APIManager.imageUrlBase)\(movie.posterPath)") else { return }
-        
         let favoriteIcon = isFavorite ? UIImage(named: "hearth-fill-icon") : UIImage(named: "hearth-icon")
         favoriteButton.setImage(favoriteIcon, for: .normal)
-        
         favoriteButton.isHidden = isFavorite
+        
+        guard let url = URL(string: "\(APIManager.imageUrlBase)\(movie.posterPath)") else { return }
+        displayPosterImage(from: url)
+    }
+    
+    private func displayPosterImage(from url: URL) {
+        posterImageView.kf.indicatorType = .activity
+        posterImageView.kf.setImage(
+            with: url,
+            placeholder: UIImage(named: "placeholder"),
+            options: [
+                .scaleFactor(UIScreen.main.scale),
+                .transition(.fade(1)),
+                .cacheOriginalImage
+            ])
     }
 }
