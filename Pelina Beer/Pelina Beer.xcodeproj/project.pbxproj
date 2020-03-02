@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582DF935240D5AAC002D7412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF934240D5AAC002D7412 /* AppDelegate.swift */; };
+		582DF937240D5AAC002D7412 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF936240D5AAC002D7412 /* SceneDelegate.swift */; };
+		582DF939240D5AAC002D7412 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF938240D5AAC002D7412 /* ViewController.swift */; };
+		582DF93C240D5AAC002D7412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582DF93A240D5AAC002D7412 /* Main.storyboard */; };
+		582DF93E240D5AAD002D7412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582DF93D240D5AAD002D7412 /* Assets.xcassets */; };
+		582DF941240D5AAD002D7412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582DF93F240D5AAD002D7412 /* LaunchScreen.storyboard */; };
+		582DF94C240D5AAD002D7412 /* Pelina_BeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF94B240D5AAD002D7412 /* Pelina_BeerTests.swift */; };
+		582DF957240D5AAD002D7412 /* Pelina_BeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF956240D5AAD002D7412 /* Pelina_BeerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582DF948240D5AAD002D7412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582DF929240D5AAC002D7412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582DF930240D5AAC002D7412;
+			remoteInfo = "Pelina Beer";
+		};
+		582DF953240D5AAD002D7412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582DF929240D5AAC002D7412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582DF930240D5AAC002D7412;
+			remoteInfo = "Pelina Beer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582DF931240D5AAC002D7412 /* Pelina Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelina Beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582DF934240D5AAC002D7412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582DF936240D5AAC002D7412 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		582DF938240D5AAC002D7412 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		582DF93B240D5AAC002D7412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582DF93D240D5AAD002D7412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582DF940240D5AAD002D7412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		582DF942240D5AAD002D7412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582DF947240D5AAD002D7412 /* Pelina BeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelina BeerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582DF94B240D5AAD002D7412 /* Pelina_BeerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelina_BeerTests.swift; sourceTree = "<group>"; };
+		582DF94D240D5AAD002D7412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582DF952240D5AAD002D7412 /* Pelina BeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelina BeerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582DF956240D5AAD002D7412 /* Pelina_BeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelina_BeerUITests.swift; sourceTree = "<group>"; };
+		582DF958240D5AAD002D7412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582DF92E240D5AAC002D7412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DF944240D5AAD002D7412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DF94F240D5AAD002D7412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582DF928240D5AAC002D7412 = {
+			isa = PBXGroup;
+			children = (
+				582DF933240D5AAC002D7412 /* Pelina Beer */,
+				582DF94A240D5AAD002D7412 /* Pelina BeerTests */,
+				582DF955240D5AAD002D7412 /* Pelina BeerUITests */,
+				582DF932240D5AAC002D7412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582DF932240D5AAC002D7412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582DF931240D5AAC002D7412 /* Pelina Beer.app */,
+				582DF947240D5AAD002D7412 /* Pelina BeerTests.xctest */,
+				582DF952240D5AAD002D7412 /* Pelina BeerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582DF933240D5AAC002D7412 /* Pelina Beer */ = {
+			isa = PBXGroup;
+			children = (
+				582DF934240D5AAC002D7412 /* AppDelegate.swift */,
+				582DF936240D5AAC002D7412 /* SceneDelegate.swift */,
+				582DF938240D5AAC002D7412 /* ViewController.swift */,
+				582DF93A240D5AAC002D7412 /* Main.storyboard */,
+				582DF93D240D5AAD002D7412 /* Assets.xcassets */,
+				582DF93F240D5AAD002D7412 /* LaunchScreen.storyboard */,
+				582DF942240D5AAD002D7412 /* Info.plist */,
+			);
+			path = "Pelina Beer";
+			sourceTree = "<group>";
+		};
+		582DF94A240D5AAD002D7412 /* Pelina BeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				582DF94B240D5AAD002D7412 /* Pelina_BeerTests.swift */,
+				582DF94D240D5AAD002D7412 /* Info.plist */,
+			);
+			path = "Pelina BeerTests";
+			sourceTree = "<group>";
+		};
+		582DF955240D5AAD002D7412 /* Pelina BeerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				582DF956240D5AAD002D7412 /* Pelina_BeerUITests.swift */,
+				582DF958240D5AAD002D7412 /* Info.plist */,
+			);
+			path = "Pelina BeerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582DF930240D5AAC002D7412 /* Pelina Beer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582DF95B240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina Beer" */;
+			buildPhases = (
+				582DF92D240D5AAC002D7412 /* Sources */,
+				582DF92E240D5AAC002D7412 /* Frameworks */,
+				582DF92F240D5AAC002D7412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pelina Beer";
+			productName = "Pelina Beer";
+			productReference = 582DF931240D5AAC002D7412 /* Pelina Beer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582DF946240D5AAD002D7412 /* Pelina BeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582DF95E240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina BeerTests" */;
+			buildPhases = (
+				582DF943240D5AAD002D7412 /* Sources */,
+				582DF944240D5AAD002D7412 /* Frameworks */,
+				582DF945240D5AAD002D7412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582DF949240D5AAD002D7412 /* PBXTargetDependency */,
+			);
+			name = "Pelina BeerTests";
+			productName = "Pelina BeerTests";
+			productReference = 582DF947240D5AAD002D7412 /* Pelina BeerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		582DF951240D5AAD002D7412 /* Pelina BeerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582DF961240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina BeerUITests" */;
+			buildPhases = (
+				582DF94E240D5AAD002D7412 /* Sources */,
+				582DF94F240D5AAD002D7412 /* Frameworks */,
+				582DF950240D5AAD002D7412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582DF954240D5AAD002D7412 /* PBXTargetDependency */,
+			);
+			name = "Pelina BeerUITests";
+			productName = "Pelina BeerUITests";
+			productReference = 582DF952240D5AAD002D7412 /* Pelina BeerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582DF929240D5AAC002D7412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = saulurias;
+				TargetAttributes = {
+					582DF930240D5AAC002D7412 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					582DF946240D5AAD002D7412 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 582DF930240D5AAC002D7412;
+					};
+					582DF951240D5AAD002D7412 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 582DF930240D5AAC002D7412;
+					};
+				};
+			};
+			buildConfigurationList = 582DF92C240D5AAC002D7412 /* Build configuration list for PBXProject "Pelina Beer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582DF928240D5AAC002D7412;
+			productRefGroup = 582DF932240D5AAC002D7412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582DF930240D5AAC002D7412 /* Pelina Beer */,
+				582DF946240D5AAD002D7412 /* Pelina BeerTests */,
+				582DF951240D5AAD002D7412 /* Pelina BeerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582DF92F240D5AAC002D7412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582DF941240D5AAD002D7412 /* LaunchScreen.storyboard in Resources */,
+				582DF93E240D5AAD002D7412 /* Assets.xcassets in Resources */,
+				582DF93C240D5AAC002D7412 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DF945240D5AAD002D7412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DF950240D5AAD002D7412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582DF92D240D5AAC002D7412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582DF939240D5AAC002D7412 /* ViewController.swift in Sources */,
+				582DF935240D5AAC002D7412 /* AppDelegate.swift in Sources */,
+				582DF937240D5AAC002D7412 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DF943240D5AAD002D7412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582DF94C240D5AAD002D7412 /* Pelina_BeerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582DF94E240D5AAD002D7412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582DF957240D5AAD002D7412 /* Pelina_BeerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582DF949240D5AAD002D7412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582DF930240D5AAC002D7412 /* Pelina Beer */;
+			targetProxy = 582DF948240D5AAD002D7412 /* PBXContainerItemProxy */;
+		};
+		582DF954240D5AAD002D7412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582DF930240D5AAC002D7412 /* Pelina Beer */;
+			targetProxy = 582DF953240D5AAD002D7412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582DF93A240D5AAC002D7412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582DF93B240D5AAC002D7412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582DF93F240D5AAD002D7412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582DF940240D5AAD002D7412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582DF959240D5AAD002D7412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		582DF95A240D5AAD002D7412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582DF95C240D5AAD002D7412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Pelina Beer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Pelina-Beer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582DF95D240D5AAD002D7412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Pelina Beer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Pelina-Beer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		582DF95F240D5AAD002D7412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Pelina BeerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Pelina-BeerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelina Beer.app/Pelina Beer";
+			};
+			name = Debug;
+		};
+		582DF960240D5AAD002D7412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Pelina BeerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Pelina-BeerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelina Beer.app/Pelina Beer";
+			};
+			name = Release;
+		};
+		582DF962240D5AAD002D7412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Pelina BeerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Pelina-BeerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pelina Beer";
+			};
+			name = Debug;
+		};
+		582DF963240D5AAD002D7412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Pelina BeerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Pelina-BeerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pelina Beer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582DF92C240D5AAC002D7412 /* Build configuration list for PBXProject "Pelina Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DF959240D5AAD002D7412 /* Debug */,
+				582DF95A240D5AAD002D7412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582DF95B240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DF95C240D5AAD002D7412 /* Debug */,
+				582DF95D240D5AAD002D7412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582DF95E240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina BeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DF95F240D5AAD002D7412 /* Debug */,
+				582DF960240D5AAD002D7412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582DF961240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina BeerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582DF962240D5AAD002D7412 /* Debug */,
+				582DF963240D5AAD002D7412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582DF929240D5AAC002D7412 /* Project object */;
+}
