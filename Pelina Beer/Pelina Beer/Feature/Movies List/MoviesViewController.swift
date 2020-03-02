@@ -26,6 +26,11 @@ final class MoviesViewController: UIViewController, Alertable {
                                                   target: self,
                                                   action: #selector(filterItemTapped))
     
+    private lazy var sortItem = UIBarButtonItem(image: UIImage(named: "sort-icon"),
+                                                  style: .plain,
+                                                  target: self,
+                                                  action: #selector(sortItemTapped))
+    
     private let searchBar = UISearchBar()
     
     private lazy var collectionViewFlowLayout: UICollectionViewFlowLayout = {
@@ -63,6 +68,7 @@ final class MoviesViewController: UIViewController, Alertable {
         segmentControl.addTarget(self, action: #selector(segmentControlTapped), for: .valueChanged)
         navigationItem.titleView = segmentControl
         navigationItem.rightBarButtonItem = filterItem
+        navigationItem.leftBarButtonItem = sortItem
     }
     
     private func setUpSearchBar() {
@@ -121,6 +127,34 @@ final class MoviesViewController: UIViewController, Alertable {
     
     @objc private func filterItemTapped() {
         setUpSearchBar()
+    }
+    
+    @objc private func sortItemTapped() {
+        displaySortingOptions()
+    }
+    
+    private func displaySortingOptions() {
+        let alert = UIAlertController(title: "Select option to sort", message: "", preferredStyle: .actionSheet)
+        
+        let sortByTitleAction = UIAlertAction(title: "Sort By Title", style: .default) { _ in
+            self.viewModel.sortMovies(by: .title)
+        }
+        
+        let sortByDateAction = UIAlertAction(title: "Sort By Date", style: .default) { _ in
+            self.viewModel.sortMovies(by: .date)
+        }
+        
+        let sortByRateAction = UIAlertAction(title: "Sort By Rate", style: .default) { _ in
+            self.viewModel.sortMovies(by: .rate)
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        
+        alert.addAction(sortByTitleAction)
+        alert.addAction(sortByDateAction)
+        alert.addAction(sortByRateAction)
+        alert.addAction(cancelAction)
+        present(alert, animated: true)
     }
 }
 
