@@ -130,7 +130,6 @@ final class MovieCollectionViewCell: UICollectionViewCell {
         ratingLabel.text = "Rate: \(movie.voteAverage)"
         let favoriteIcon = isFavorite ? UIImage(named: "hearth-fill-icon") : UIImage(named: "hearth-icon")
         favoriteButton.setImage(favoriteIcon, for: .normal)
-        favoriteButton.isHidden = isFavorite
         
         guard let url = URL(string: "\(APIManager.imageUrlBase)\(movie.posterPath)") else { return }
         displayPosterImage(from: url)
