@@ -48,6 +48,50 @@ final class MovieViewModel {
         }
     }
     
+    func sortMovies(by sortState: MovieSortState = .rate) {
+        var moviesToSort = getMoviesToSort()
+        
+        switch sortState {
+        case .title:
+            moviesToSort = movies.sorted { firstMovie, secondMovie -> Bool in
+                return firstMovie.title < secondMovie.title
+            }
+        case .date:
+            moviesToSort = movies.sorted { firstMovie, secondMovie -> Bool in
+                return firstMovie.releaseDate > secondMovie.releaseDate
+            }
+        case .rate:
+            moviesToSort = movies.sorted { firstMovie, secondMovie -> Bool in
+                return firstMovie.voteAverage > secondMovie.voteAverage
+            }
+        }
+        
+        loadSortedMovies(moviesToSort)
+    }
+    
+    private func getMoviesToSort() -> [Movie] {
+        switch movieListState {
+        case .feed:
+            return movies
+        case .favorite:
+            return favoriteMovies
+        default:
+            return []
+        }
+    }
+    
+    private func loadSortedMovies(_ sortedMovies: [Movie]) {
+        switch movieListState {
+        case .feed:
+            movies = sortedMovies
+        case .favorite:
+            favoriteMovies = sortedMovies
+        default: break
+        }
+        
+        didLoadMovies.value = true
+    }
+    
     private func checkPreloadedMovies() -> Bool {
         switch movieListState {
         case .feed: return movies.isEmpty
@@ -79,7 +123,8 @@ extension MovieViewModel {
                     case .favorite:
                         self.favoriteMovies = moviesResponse.movies
                     }
-                    self.didLoadMovies.value = true
+                    
+                    self.sortMovies()
                 case .failure(let error):
                     self.didLoadMovies.value = false
                     self.networkError.value = error

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581FFE97240DADAD0038DA48 /* MovieSortState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FFE96240DADAD0038DA48 /* MovieSortState.swift */; };
 		58252BE0240D611600E132F5 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252BDF240D611600E132F5 /* SecretKey.swift */; };
 		58252BE3240D62D300E132F5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252BE2240D62D300E132F5 /* APIManager.swift */; };
 		58252BE6240D62FA00E132F5 /* ServiceRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58252BE5240D62FA00E132F5 /* ServiceRequester.swift */; };
@@ -62,6 +63,7 @@
 		05BEA417EF28EE4FD3D272F8 /* Pods-Pelina BeerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina BeerTests.release.xcconfig"; path = "Target Support Files/Pods-Pelina BeerTests/Pods-Pelina BeerTests.release.xcconfig"; sourceTree = "<group>"; };
 		0F5CA223EE9F01671666CACE /* Pods_Pelina_Beer_Pelina_BeerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelina_Beer_Pelina_BeerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A76F72ED4F7D3737F28F5EA /* Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pelina Beer-Pelina BeerUITests/Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		581FFE96240DADAD0038DA48 /* MovieSortState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSortState.swift; sourceTree = "<group>"; };
 		58252BDF240D611600E132F5 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
 		58252BE2240D62D300E132F5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		58252BE5240D62FA00E132F5 /* ServiceRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequester.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				58252BF0240D674100E132F5 /* Movie.swift */,
 				58252BEE240D670500E132F5 /* MovieListState.swift */,
 				58252BF4240D683100E132F5 /* MovieListResponse.swift */,
+				581FFE96240DADAD0038DA48 /* MovieSortState.swift */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -607,6 +610,7 @@
 				58252BE0240D611600E132F5 /* SecretKey.swift in Sources */,
 				58252C1A240D94B800E132F5 /* MovieDetailView.swift in Sources */,
 				58252BF3240D680D00E132F5 /* MovieServiceCallerProtocol.swift in Sources */,
+				581FFE97240DADAD0038DA48 /* MovieSortState.swift in Sources */,
 				58252BE6240D62FA00E132F5 /* ServiceRequester.swift in Sources */,
 				58252BF1240D674100E132F5 /* Movie.swift in Sources */,
 				58252C08240D723F00E132F5 /* NiblessViewController.swift in Sources */,
