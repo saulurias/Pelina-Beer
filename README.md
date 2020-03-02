@@ -32,7 +32,10 @@ To be able to run this project a Secret Folder is required and its on the ignore
 
 ## Project Preview
 #### Feed and favorites Functionality
-![BC-Movies](Resources/search-gif.gif)
+![Feed](Resources/search-gif.gif)
 
 #### Search Functionality
-![BC-Movies](Resources/list-gif.gif)
+![Search](Resources/list-gif.gif)
+
+#### Sort Functionality
+![Sort](Resources/sorting-list.gif)
