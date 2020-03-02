@@ -164,6 +164,12 @@ final class MovieDetailView: NiblessView {
     }
     
     @objc private func favoriteButtonPressed() {
+        reloadFavoriteIcon()
         delegate?.movieDetailView(self, tappedFavorite: favoriteButton)
+    }
+    
+    private func reloadFavoriteIcon() {
+        let favoriteIcon = !isFavorite ? UIImage(named: "hearth-fill-icon") : UIImage(named: "hearth-icon")
+        favoriteButton.setImage(favoriteIcon, for: .normal)
     }
 }
