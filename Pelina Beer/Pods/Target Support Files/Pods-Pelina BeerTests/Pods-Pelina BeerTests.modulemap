@@ -1,0 +1,6 @@
+framework module Pods_Pelina_BeerTests {
+  umbrella header "Pods-Pelina BeerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

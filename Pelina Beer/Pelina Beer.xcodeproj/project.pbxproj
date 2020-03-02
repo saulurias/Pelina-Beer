@@ -15,6 +15,9 @@
 		582DF941240D5AAD002D7412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582DF93F240D5AAD002D7412 /* LaunchScreen.storyboard */; };
 		582DF94C240D5AAD002D7412 /* Pelina_BeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF94B240D5AAD002D7412 /* Pelina_BeerTests.swift */; };
 		582DF957240D5AAD002D7412 /* Pelina_BeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DF956240D5AAD002D7412 /* Pelina_BeerUITests.swift */; };
+		8E551102932FA8DB03DC3297 /* Pods_Pelina_BeerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A98CFA16A37951A78409984 /* Pods_Pelina_BeerTests.framework */; };
+		CC3524092E6102FB581A68F3 /* Pods_Pelina_Beer_Pelina_BeerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5CA223EE9F01671666CACE /* Pods_Pelina_Beer_Pelina_BeerUITests.framework */; };
+		FE9027BB73F573AC0E70ABC5 /* Pods_Pelina_Beer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26E93DB6F7CE2D081D92A8E /* Pods_Pelina_Beer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05BEA417EF28EE4FD3D272F8 /* Pods-Pelina BeerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina BeerTests.release.xcconfig"; path = "Target Support Files/Pods-Pelina BeerTests/Pods-Pelina BeerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F5CA223EE9F01671666CACE /* Pods_Pelina_Beer_Pelina_BeerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelina_Beer_Pelina_BeerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A76F72ED4F7D3737F28F5EA /* Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pelina Beer-Pelina BeerUITests/Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		582DF931240D5AAC002D7412 /* Pelina Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelina Beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		582DF934240D5AAC002D7412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		582DF936240D5AAC002D7412 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		582DF952240D5AAD002D7412 /* Pelina BeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelina BeerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		582DF956240D5AAD002D7412 /* Pelina_BeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelina_BeerUITests.swift; sourceTree = "<group>"; };
 		582DF958240D5AAD002D7412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF672D2CD4A355AD97A0493 /* Pods-Pelina BeerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina BeerTests.debug.xcconfig"; path = "Target Support Files/Pods-Pelina BeerTests/Pods-Pelina BeerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A98CFA16A37951A78409984 /* Pods_Pelina_BeerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelina_BeerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65BB669D9D4B6F390A44689 /* Pods-Pelina Beer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina Beer.debug.xcconfig"; path = "Target Support Files/Pods-Pelina Beer/Pods-Pelina Beer.debug.xcconfig"; sourceTree = "<group>"; };
+		C26E93DB6F7CE2D081D92A8E /* Pods_Pelina_Beer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelina_Beer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE4C1B120BD7C55F604DEC4 /* Pods-Pelina Beer-Pelina BeerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina Beer-Pelina BeerUITests.release.xcconfig"; path = "Target Support Files/Pods-Pelina Beer-Pelina BeerUITests/Pods-Pelina Beer-Pelina BeerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA148AD235E655061E55F515 /* Pods-Pelina Beer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelina Beer.release.xcconfig"; path = "Target Support Files/Pods-Pelina Beer/Pods-Pelina Beer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9027BB73F573AC0E70ABC5 /* Pods_Pelina_Beer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E551102932FA8DB03DC3297 /* Pods_Pelina_BeerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3524092E6102FB581A68F3 /* Pods_Pelina_Beer_Pelina_BeerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011506199DA4889DE46E90EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C26E93DB6F7CE2D081D92A8E /* Pods_Pelina_Beer.framework */,
+				0F5CA223EE9F01671666CACE /* Pods_Pelina_Beer_Pelina_BeerUITests.framework */,
+				9A98CFA16A37951A78409984 /* Pods_Pelina_BeerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		582DF928240D5AAC002D7412 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				582DF94A240D5AAD002D7412 /* Pelina BeerTests */,
 				582DF955240D5AAD002D7412 /* Pelina BeerUITests */,
 				582DF932240D5AAC002D7412 /* Products */,
+				FEF7AD03A199368B4380AED5 /* Pods */,
+				011506199DA4889DE46E90EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = "Pelina BeerUITests";
 			sourceTree = "<group>";
 		};
+		FEF7AD03A199368B4380AED5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A65BB669D9D4B6F390A44689 /* Pods-Pelina Beer.debug.xcconfig */,
+				FA148AD235E655061E55F515 /* Pods-Pelina Beer.release.xcconfig */,
+				1A76F72ED4F7D3737F28F5EA /* Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig */,
+				CFE4C1B120BD7C55F604DEC4 /* Pods-Pelina Beer-Pelina BeerUITests.release.xcconfig */,
+				5BF672D2CD4A355AD97A0493 /* Pods-Pelina BeerTests.debug.xcconfig */,
+				05BEA417EF28EE4FD3D272F8 /* Pods-Pelina BeerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 582DF95B240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina Beer" */;
 			buildPhases = (
+				0840F60F5090B6FDAC92A0A1 /* [CP] Check Pods Manifest.lock */,
 				582DF92D240D5AAC002D7412 /* Sources */,
 				582DF92E240D5AAC002D7412 /* Frameworks */,
 				582DF92F240D5AAC002D7412 /* Resources */,
+				582DF964240D5D42002D7412 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 582DF95E240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina BeerTests" */;
 			buildPhases = (
+				A52FCB034BBEB2A368D9E952 /* [CP] Check Pods Manifest.lock */,
 				582DF943240D5AAD002D7412 /* Sources */,
 				582DF944240D5AAD002D7412 /* Frameworks */,
 				582DF945240D5AAD002D7412 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 582DF961240D5AAD002D7412 /* Build configuration list for PBXNativeTarget "Pelina BeerUITests" */;
 			buildPhases = (
+				380E2D71A36B3BFEF14363EA /* [CP] Check Pods Manifest.lock */,
 				582DF94E240D5AAD002D7412 /* Sources */,
 				582DF94F240D5AAD002D7412 /* Frameworks */,
 				582DF950240D5AAD002D7412 /* Resources */,
@@ -253,6 +297,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0840F60F5090B6FDAC92A0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pelina Beer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380E2D71A36B3BFEF14363EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pelina Beer-Pelina BeerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		582DF964240D5D42002D7412 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		A52FCB034BBEB2A368D9E952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pelina BeerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		582DF92D240D5AAC002D7412 /* Sources */ = {
@@ -432,6 +562,7 @@
 		};
 		582DF95C240D5AAD002D7412 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65BB669D9D4B6F390A44689 /* Pods-Pelina Beer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +581,7 @@
 		};
 		582DF95D240D5AAD002D7412 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA148AD235E655061E55F515 /* Pods-Pelina Beer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +600,7 @@
 		};
 		582DF95F240D5AAD002D7412 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF672D2CD4A355AD97A0493 /* Pods-Pelina BeerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +623,7 @@
 		};
 		582DF960240D5AAD002D7412 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BEA417EF28EE4FD3D272F8 /* Pods-Pelina BeerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +646,7 @@
 		};
 		582DF962240D5AAD002D7412 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A76F72ED4F7D3737F28F5EA /* Pods-Pelina Beer-Pelina BeerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +667,7 @@
 		};
 		582DF963240D5AAD002D7412 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE4C1B120BD7C55F604DEC4 /* Pods-Pelina Beer-Pelina BeerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

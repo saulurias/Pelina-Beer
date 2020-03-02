@@ -1,0 +1,29 @@
+disabled_rules:
+  - file_length
+  - function_body_length
+  - type_body_length
+  - todo
+  - cyclomatic_complexity
+  - nesting
+  - line_length
+  - trailing_whitespace
+  - large_tuple
+  - type_name
+  - identifier_name
+  - generic_type_name
+
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+  # TODO: Add in `missing_docs` after we backfill documentation
+
+# Override these rules to be warnings for now
+force_cast: warning
+force_try: warning
+empty_count: warning
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit)
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+ - Pods
